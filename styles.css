@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
-
+.root {
+    --primary-color:
+    #60a5fa;
+    --linktext-color:whitesmoke;
+    --section-color: #9ca3af;
+}
 
 
 body {
@@ -32,24 +37,29 @@ hr {
 .link {
     text-decoration: none;
     padding: 1rem 0rem;
-    color: aliceblue;
+    
 
 }
 
 .link-primary {
-    background-color: #3f3f46;
+    background-color:
+    #60a5fa ;
     border-radius: 0.5rem;
     padding: 1em 1em;
-    color: aliceblue;
+    font-size: small;
+    font-weight: bolder;
+    color: whitesmoke;
 
 }
 
 .link-secondary {
-    background-color: #3f3f46;
     border-radius: 0.5rem;
     padding: 1em 1em;
-    color: aliceblue;
-
+    color: whitesmoke;
+    font-size: small;
+    font-weight: bolder;
+    background-color:
+    #60a5fa;
 }
 
 /** lists **/
@@ -68,13 +78,18 @@ hr {
 /** nav **/
 
 .navigation {
-    background-color: #3f3f46;
-    color: aliceblue;
+    background-color:
+    #60a5fa;
+    color:whitesmoke;
 
 } 
 
 .navigation .nav-link {
     text-align: right;
+    color: whitesmoke;
+    display: inline;
+  
+    padding: 1rem 0rem;
 }
 
 .navigation .nav-brand {
@@ -88,11 +103,15 @@ hr {
 }
 
 .hero .hero-image {
-    max-width: 200px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
 
 .hero .hero-heading {
-    
+    padding:1rem ;
+    color: #9ca3af;
+}
+.hero .hero-heading .hero-highlight {
+    color: #60a5fa;
 }
