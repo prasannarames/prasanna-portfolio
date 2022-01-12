@@ -109,6 +109,7 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding:1rem ;
     color: #9ca3af;
 }
