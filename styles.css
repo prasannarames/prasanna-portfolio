@@ -7,19 +7,21 @@ body {
     font-family: 'Roboto Mono', monospace;
     background-color: ;
     color: ;
+    display: ;
 }
 
 hr {
     margin: 2rem 0rem;
 }
+
 /** container **/
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.centered-container{
+.centered-container {
     max-width: 600px;
     margin: auto;
 
@@ -30,16 +32,67 @@ hr {
 .link {
     text-decoration: none;
     padding: 1rem 0rem;
-    color: ;
+    color: aliceblue;
 
 }
 
 .link-primary {
-    background-color: #3f3f46 ;
+    background-color: #3f3f46;
     border-radius: 0.5rem;
-    color:aliceblue;
+    padding: 1em 1em;
+    color: aliceblue;
 
-    
 }
 
+.link-secondary {
+    background-color: #3f3f46;
+    border-radius: 0.5rem;
+    padding: 1em 1em;
+    color: aliceblue;
 
+}
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 1em 1em;
+    text-align: right;
+    
+}
+ 
+/** nav **/
+
+.navigation {
+    background-color: #3f3f46;
+    color: aliceblue;
+
+} 
+
+.navigation .nav-link {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+     font-size: 20px;   
+}
+
+/** header**/
+
+.hero {
+   padding: 2rem;
+}
+
+.hero .hero-image {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    
+}
