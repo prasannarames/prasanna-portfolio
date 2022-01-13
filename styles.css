@@ -55,8 +55,8 @@ div .nav-brand{
 }
 
 .hero{
-    display: flex;
-    padding: 5rem 2rem;
+    padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-image{
@@ -64,7 +64,6 @@ div .nav-brand{
     width: 550px;
     display: block;
     margin: auto;
-    flex-direction: column;
 
 }
 
@@ -75,3 +74,51 @@ div .nav-brand{
    font-size: 2.5em;
    color: var(--section-color);
 }
+.hero .hero-heading .hero-highlight{
+    color: #171717;
+}
+
+.container{
+    padding: 0rem 1rem;
+}
+.container .container-center{
+    max-width: 900px;
+    width: 100px;
+    margin: auto;
+}
+
+.section{
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+
+}
+
+.gray{
+
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.link-primary{
+    max-width: 150px;
+    padding: 0rem 2rem;
+    background-color:transparent;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    border: 1px solid;
+    border-color: #171717;
+}
+.link-secondary{
+    max-width: 150px;
+    padding: 0rem 2rem;
+    background-color:transparent;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    border: 1px solid;
+    border-color: #171717;
+}
+
