@@ -96,7 +96,7 @@ div .nav-brand{
 }
 
 .gray{
-
+    background-color: var(--section-color);
 }
 
 .section h3 {
