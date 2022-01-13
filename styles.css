@@ -72,10 +72,10 @@ div .nav-brand{
    text-align: center;
    padding: 1rem;
    font-size: 2.5em;
-   color: var(--section-color);
+   color: var(--primary-color);
 }
 .hero .hero-heading .hero-highlight{
-    color: #171717;
+    color: var(--section-color);
 }
 
 .container{
