@@ -101,9 +101,13 @@ div .nav-brand{
     text-align: center;
 }
 
+.section p {
+    padding: 1rem;
+}
+
 .link-primary{
     max-width: 150px;
-    padding: 0rem 2rem;
+    padding: 0rem 3rem;
     background-color:transparent;
     margin: 1rem auto;
     border-radius: 2rem;
@@ -112,7 +116,7 @@ div .nav-brand{
 }
 .link-secondary{
     max-width: 150px;
-    padding: 0rem 2rem;
+    padding: 0rem 4rem;
     background-color:transparent;
     margin: 1rem auto;
     border-radius: 2rem;
@@ -120,3 +124,16 @@ div .nav-brand{
     border-color: #171717;
 }
 
+.footer{
+    padding: 2rem 1rem;
+    text-align: center;
+
+}
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+
+}
+.footer-ul{
+    padding:2rem;
+}
