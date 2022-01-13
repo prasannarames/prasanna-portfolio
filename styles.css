@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
-.root {
-    --primary-color:
-    #60a5fa;
-    --linktext-color:whitesmoke;
-    --section-color: #9ca3af;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
+:root {
+    --primary-color: #171717;
+    --linktext-color: whitesmoke;
+    --section-color: #9ca3af;
+}
 
 body {
     font-family: 'Roboto Mono', monospace;
@@ -19,100 +22,53 @@ hr {
     margin: 2rem 0rem;
 }
 
-/** container **/
-
-.container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.centered-container {
-    max-width: 600px;
-    margin: auto;
-
-}
-
-/** links **/
-
 .link {
     text-decoration: none;
-    padding: 1rem 0rem;
-    
-
-}
-
-.link-primary {
-    background-color:
-    #60a5fa ;
-    border-radius: 0.5rem;
-    padding: 1em 1em;
-    font-size: small;
-    font-weight: bolder;
-    color: whitesmoke;
-
-}
-
-.link-secondary {
-    border-radius: 0.5rem;
-    padding: 1em 1em;
-    color: whitesmoke;
-    font-size: small;
-    font-weight: bolder;
-    background-color:
-    #60a5fa;
-}
-
-/** lists **/
-
-.list-non-bullet {
-    list-style: none;
+    box-sizing: border-box;
+    padding: 5rem 1rem;
+ 
 }
 
 .list-inline {
     display: inline;
-    padding: 1em 1em;
-    text-align: right;
     
+
 }
- 
-/** nav **/
 
-.navigation {
-    background-color:
-    #60a5fa;
-    color:whitesmoke;
+.navigation{
+    margin: auto;
+    padding: 1rem;
+    background-color:;
+}
+div .nav-brand{
+    font-weight: bold;
+    float: left;
+}
 
-} 
-
-.navigation .nav-link {
+.nav-ul {
     text-align: right;
-    color: whitesmoke;
-    display: inline;
-  
-    padding: 1rem 0rem;
+}
+.link-active{
+    font-weight: bold;
+
 }
 
-.navigation .nav-brand {
-     font-size: 20px;   
+.hero{
+    display: flex;
+    padding: 5rem 2rem;
 }
 
-/** header**/
-
-.hero {
-   padding: 2rem;
-}
-
-.hero .hero-image {
-    max-width: 350px;
+.hero .hero-image{
+    max-width: 200px;
+    width: 450px;
     display: block;
     margin: auto;
+
 }
 
 .hero .hero-heading {
-    text-align: center;
-    padding:1rem ;
-    color: #9ca3af;
-}
-.hero .hero-heading .hero-highlight {
-    color: #60a5fa;
+   text-align: center;
+   padding: 1rem;
+   font-size: 2.5em;
+   color: var(--section-color);
 }
