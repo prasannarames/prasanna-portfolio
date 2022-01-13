@@ -13,9 +13,10 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-    background-color: ;
-    color: ;
-    display: ;
+    margin: auto;
+    max-width: 85%;
+    width: 100%;
+
 }
 
 hr {
@@ -59,12 +60,14 @@ div .nav-brand{
 }
 
 .hero .hero-image{
-    max-width: 200px;
-    width: 450px;
+    max-width: 80%;
+    width: 550px;
     display: block;
     margin: auto;
+    flex-direction: column;
 
 }
+
 
 .hero .hero-heading {
    text-align: center;
